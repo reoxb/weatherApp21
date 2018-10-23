@@ -1,0 +1,14 @@
+Desarrollo de una aplicacion que por medio de twitter y facebook
+postee la hora, fecha y clima. Cada 'x' intervalo de tiempo.
+
+Realizar la aplicacion de una forma escalable y global, 
+
+De preferencia crear una imagen que contenga la descripcion del clima y la fecha dependiendo de la ubicacion o del twitt de un usuario. 
+
+Consteste twitts de usuarios enviandoles clima y probabilidad de lluvia.
+
+Publique imagenes del clima y fecha actual
+tipo estados de facebook
+
+
+en app.js crear el validador de consultas por CP por nombre de Ciudad, con los JSON's de la api
