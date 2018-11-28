@@ -1,0 +1,64 @@
+/* Estilos correpondientes al archivo de busqueda*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900");
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* background: #112233; */
+  /* background: rgba(236, 238, 239, 0.651); */
+  color: white;
+  background: #ffffff url('./img/banner01.jpg') no-repeat center top;
+  background-size: cover;
+}
+
+.logo h2 {
+	font-family: 'Lobster', cursive;
+	font-size: 34px;
+}
+
+.find-location {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.find-location input[type="text"] {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+}
+
+.find-location input[type="submit"] {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 0 40px;
+}
+
+form input,
+form textarea,
+form select {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.button,
+form input[type="submit"],
+form button,
+form input[type="reset"] {
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
